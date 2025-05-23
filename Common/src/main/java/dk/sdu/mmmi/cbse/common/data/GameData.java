@@ -4,6 +4,7 @@ public class GameData {
 
     private int displayWidth  = 800 ;
     private int displayHeight = 800;
+    private int time = 0;
     private final GameKeys keys = new GameKeys();
 
 
@@ -25,6 +26,9 @@ public class GameData {
 
     public int getDisplayHeight() {
         return displayHeight;
+    }
+    public int getTime(){
+        return time;
     }
 
 

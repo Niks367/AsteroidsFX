@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>dk.sdu.mmmi.cbse</groupId>
+        <artifactId>asteroids.jpms</artifactId>
+        <version>1.0.2-SNAPSHOT</version>
+    </parent>
+    <groupId>com.enemy</groupId>
+    <artifactId>Enemy</artifactId>
+    <name>Archetype - Enemy</name>
+    <url>https://maven.apache.org</url>
+    <dependencies>
+        <dependency>
+            <groupId>dk.sdu.mmmi.cbse</groupId>
+            <artifactId>Common</artifactId>
+            <version>1.0.2-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>dk.sdu.mmmi.cbse</groupId>
+            <artifactId>CommonBullet</artifactId>
+            <version>1.0.2-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-graphics</artifactId>
+        </dependency>
+    </dependencies>
+</project>
