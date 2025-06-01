@@ -4,7 +4,7 @@
     <parent>
         <groupId>dk.sdu.mmmi.cbse</groupId>
         <artifactId>asteroids.jpms</artifactId>
-        <version>1.0.1-SNAPSHOT</version>
+        <version>1.0.2-SNAPSHOT</version>
     </parent>
     <artifactId>Player</artifactId>
     <packaging>jar</packaging>
@@ -19,6 +19,16 @@
             <groupId>${project.groupId}</groupId>
             <artifactId>CommonBullet</artifactId>
             <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>dk.sdu.mmmi.cbse</groupId>
+            <artifactId>Bullet</artifactId>
+            <version>1.0.2-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-graphics</artifactId>
         </dependency>
     </dependencies>
 </project>

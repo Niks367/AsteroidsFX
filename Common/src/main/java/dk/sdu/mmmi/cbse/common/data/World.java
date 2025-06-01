@@ -1,5 +1,7 @@
 package dk.sdu.mmmi.cbse.common.data;
 
+import org.springframework.stereotype.Component;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -10,6 +12,7 @@ import java.util.concurrent.ConcurrentHashMap;
  *
  * @author jcs
  */
+@Component
 public class World {
 
     private final Map<String, Entity> entityMap = new ConcurrentHashMap<>();

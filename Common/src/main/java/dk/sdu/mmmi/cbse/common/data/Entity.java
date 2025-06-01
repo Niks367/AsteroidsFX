@@ -12,13 +12,16 @@ public class Entity implements Serializable {
     private double y;
     private double rotation;
     private float radius;
-            
+
+    private EntityType type;
 
     public String getID() {
         return ID.toString();
     }
-
-
+    public Entity() {}
+    public Entity(EntityType type) {
+        this.type = type;
+    }
     public void setPolygonCoordinates(double... coordinates ) {
         this.polygonCoordinates = coordinates;
     }
@@ -59,5 +62,8 @@ public class Entity implements Serializable {
         
     public float getRadius() {
         return this.radius;
+    }
+    public EntityType getType() {
+        return type;
     }
 }

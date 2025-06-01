@@ -1,5 +1,8 @@
 package dk.sdu.mmmi.cbse.common.data;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class GameData {
 
     private int displayWidth  = 800 ;
